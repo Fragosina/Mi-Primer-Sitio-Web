@@ -1,0 +1,1 @@
+prompt("Cómo te llama? Esto se hace en Java Script");

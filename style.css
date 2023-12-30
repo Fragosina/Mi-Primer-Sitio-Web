@@ -1,0 +1,49 @@
+/* es el selector universal*/
+
+*{
+    /*color de fondo*/
+    background-color: aqua;
+    /* color de texto*/
+    color: blue;
+
+}
+
+h1{
+    color: darkorange;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: darkgrey;
+}
+
+/*de clase*/
+.serif{
+    /*Tipografía*/
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+/* de ID*/
+#rosa{
+    color: pink;
+}
+
+p{
+    text-align: center;
+    font-style: oblique;
+}
+
+/*media queies*/
+@media only screen and (max-width:800px){
+body{
+    background-color: ;
+}
+}
+
+img, video {
+    width: 400px;
+
+}
